@@ -1,22 +1,21 @@
 .nosotros {
-    padding: 90px 20px 0;
+    padding: 90px 20px 30px;
 }
 
 .modulos {
-    padding: 90px 20px 0;
+    padding: 90px 20px 30px;
 }
 
 .proyectos {
-    padding: 90px 20px 0;
+    padding: 90px 20px 30px;
 }
 
 .contacto {
-    padding: 90px 20px 0;
+    padding: 90px 20px 30px;
 }
 
 .main__article {
     display: flex;
-
 }
 
 .h1{
@@ -27,7 +26,11 @@
     line-height: 25px;
 }
 
-@media (max-width: 900px){
+@media (max-width: 992px){
+
+    .main_p-1{
+        display: none;
+    }
 
 }
 
@@ -36,6 +39,8 @@
     .main__article {
         flex-direction: column;
     }
+
+  
 
     .nosotros {
         padding: 70px 10px 0;
