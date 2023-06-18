@@ -1,22 +1,12 @@
 'use strict';
 
-window.addEventListener('DOMContentLoaded', () => {
+import nav from "./modules/nav.js";
 
-    const navButton = document.querySelector(".nav-button");
-    const navMenu = document.querySelector(".nav__menu");
-    const navItem = document.querySelector(".nav__menu-item");
+const documentReady = () => {
+    nav();
+};
 
-    navButton.addEventListener("click", () => {
-        navMenu.classList.toggle("nav__menu-visible");
-    });
+document.addEventListener('DOMContentLoaded', documentReady);
 
-    navMenu.addEventListener("click", () => {
-        navMenu.classList.toggle("nav__menu-visible");
-    });
-
-
-
-
-
-});
-
+// Trabajo realizado por Joseluis Muñoz Huamaní
+// Tacna-Perú
