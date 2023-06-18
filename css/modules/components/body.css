@@ -6,10 +6,11 @@
 body {
     font-family: sans-serif;
     color: white;
+    overflow-x: hidden;
 }
 
 @media (max-width: 768px) {
     body {
-        /* padding: 70px 20px 0; */
+        padding: 0;
     }
 }
