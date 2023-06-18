@@ -14,7 +14,25 @@
     padding: 90px 20px 0;
 }
 
+.main__article {
+    display: flex;
+
+}
+
+.h1{
+    margin: 5px 0 25px;
+}
+
+.main_p{
+    line-height: 25px;
+    
+}
+
 @media (max-width: 768px) {
+
+    .main__article {
+        flex-direction: column;
+    }
 
     .nosotros {
         padding: 70px 10px 0;
