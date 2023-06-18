@@ -1,0 +1,8 @@
+.capa {
+    background-color: #181a1f;
+}
+
+.capa:nth-child(even){
+    background-color: #242831;
+
+}

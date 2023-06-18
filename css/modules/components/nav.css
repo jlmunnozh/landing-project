@@ -58,3 +58,57 @@
     line-height: 60px;
     display: none;
 }
+
+
+@media (max-width: 768px) {
+    .nav__logo {
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        height: 60px;
+    }
+
+    .nav__menu {
+        position: fixed;
+        justify-content: center;
+        background: linear-gradient(180deg, rgba(27, 56, 79, 1) 0%, rgba(27, 63, 62, 1) 100%);
+        margin-right: 5px;
+        top: 59px;
+        width: 100%;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+    }
+
+    .nav__menu-ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav__menu-item {
+        font-size: 15px;
+        margin: 0 8px;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+
+    .nav__menu-link {
+        padding: 8px 10px;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+
+    .nav__menu-link:hover {
+        background: none;
+        color: yellow;
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .nav__menu-visible {
+        left: 0;
+    }
+}

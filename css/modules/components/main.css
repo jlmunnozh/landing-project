@@ -1,0 +1,35 @@
+.nosotros {
+    padding: 90px 20px 0;
+}
+
+.modulos {
+    padding: 90px 20px 0;
+}
+
+.proyectos {
+    padding: 90px 20px 0;
+}
+
+.contacto {
+    padding: 90px 20px 0;
+}
+
+@media (max-width: 768px) {
+
+    .nosotros {
+        padding: 70px 10px 0;
+    }
+
+    .modulos {
+        padding: 70px 10px 0;
+    }
+
+    .proyectos {
+        padding: 70px 10px 0;
+    }
+
+    .contacto {
+        padding: 70px 10px 0;
+    }
+
+}
