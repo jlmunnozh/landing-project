@@ -8,15 +8,15 @@
 }
 
 .img-article {
-    padding: 0 20px 0;
-    height: 250px;
-    width: 534px;
+    /* padding: 0 20px 0; */
+    height: 200px;
+    width: 427px;
 }
 
 @media (max-width: 992px) {
     .img-article {
-        height: 200px;
-        width: 420px;
+        height: 170px;
+        width: 363px;
     }
 }
 
