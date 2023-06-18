@@ -1,89 +1,12 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
+@import './modules/variables/variables.css';
+@import './modules/components/body.css';
+@import './modules/components/header.css';
+@import './modules/components/nav.css';
 
-body {
-    font-family: sans-serif;
-    /* background-color: #181a1f; */
-    color: white;
-    /* padding: 90px 20px 0; */
-}
-
-.header {
-    background: linear-gradient(180deg, rgba(34,38,46,1) 0%, rgba(35,39,47,1) 100%);
-    /* background-color: #232730; */
-    height: 80px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    box-shadow: 0 0 5px 0 white;
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1024px;
-    margin: 0 auto;
-}
-
-.nav__logo {
-    display: flex;
-    align-items: center;
-    padding: 0 15px;
-}
-
-.nav__menu {
-    display: flex;
-    margin-right: 15px;
-}
-
-.nav__menu-ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-}
-
-.nav__menu-item {
-    font-size: 15px;
-    margin: 0 8px;
-    line-height: 80px;
-    text-transform: uppercase;
-}
-
-.nav__menu-link {
-    padding: 8px 10px;
-    border-radius: 10px;
-    transition: 0.5s;
-}
-
-.nav__menu-link:hover {
-    background-color: black;
-}
 
 .img-logo {
     height: 40px;
     width: 160px;
-}
-
-.nav-link {
-    color: white;
-    text-decoration: none;
-}
-
-.nav__button {
-    display: flex;
-}
-
-.nav-button {
-    color: white;
-    font-size: 25px;
-    border: none;
-    background: none;
-    padding: 0 20px;
-    line-height: 60px;
-    display: none;
 }
 
 .nosotros {
@@ -141,10 +64,7 @@ body {
         position: fixed;
         justify-content: center;
         background: linear-gradient(180deg, rgba(27,56,79,1) 0%, rgba(27,63,62,1) 100%);
-        /* background-color: #1b3f3e; */
-        /* #1b384f */
         margin-right: 5px;
-        /* left: 0; */
         top: 59px;
         width: 100%;
         height: calc(100% - 60px);
