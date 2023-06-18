@@ -22,13 +22,25 @@
     display: flex;
 }
 
+.main__article-div{
+    margin-right: 20px;
+}
+
+.main__article-img{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
 .h1{
     margin: 5px 0 25px;
     font-size: 45px;
 }
 
 .main_p{
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 @media (max-width: 992px){
