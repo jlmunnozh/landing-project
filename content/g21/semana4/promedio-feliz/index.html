@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Promedio Feliz</title>
+</head>
+
+<body>
+  <h1>Promedio Feliz</h1>
+
+  <script>
+    alert('Promedio Feliz');
+
+    const averageNotes = (n1, n2, n3) => {
+      return (n1 + n2 + n3) / 3;
+    };
+
+    const courseStatus = (average) => {
+      if (average >= 13) {
+        return 'aprobado';
+      } else {
+        return 'desaprobado';
+      }
+    };
+
+    let response = '1';
+
+    while (response == '1') {
+      let note1 = +prompt('Ingrese nota 1');
+      let note2 = +prompt('Ingrese nota 2');
+      let note3 = +prompt('Ingrese nota 3');
+
+      let average = averageNotes(note1, note2, note3);
+      alert(`Promedio final: ${average} usted a ${courseStatus(average)}`);
+
+      response = prompt('¿Usted desea promediar más notas? Sí (1) No (Otra tecla)');
+    }
+  </script>
+</body>
+
+</html>

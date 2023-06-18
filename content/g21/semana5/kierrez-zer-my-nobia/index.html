@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♥ KieRRez ZeR My NoBia ♥</title>
+  <style>
+    .body {
+      background-color: crimson;
+      text-align: center;
+    }
+
+    .body__title {
+      color: white;
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 512px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">♥ KieRRez ZeR My NoBia ♥</h1>
+  <img src="https://frikimaestro.com/wp-content/uploads/2019/10/0005-3.jpg" alt="Foto D My" class="body__img" />
+  <br>
+  <button id="yes">🌚Si SoY🌚</button>
+  <button id="no">😭Nel PerrO😭</button>
+
+  <script>
+    const vuttonYes = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    vuttonYes.addEventListener('click', () => {
+      alert('💞 Now ZoMos NoBios 💞');
+      alert('😱 NuesTrA VoDa Is TomoRRow 😱');
+      window.location.href = 'https://youtu.be/3mchJ-EW9rM?t=35';
+    });
+
+    vuttonNo.addEventListener('mouseover', () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = Math.random() * window.innerHeight + 'px';
+      vuttonNo.style.left = Math.random() * window.innerWidth + 'px';
+    });
+  </script>
+</body>
+
+</html>

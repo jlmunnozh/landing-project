@@ -1,0 +1,28 @@
+.icon {
+  display: flex;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.icon--menu {
+  transform: scale(var(--i-menu));
+  position: absolute;
+  right: 1rem;
+  transition: transform 0.25s;
+}
+
+.icon--close {
+  transform: scale(var(--i-close));
+  position: absolute;
+  right: 1rem;
+  transition: transform 0.25s;
+}
+
+.icon--lg {
+  font-size: 1.75rem;
+}
+
+.icon i {
+  display: flex;
+}

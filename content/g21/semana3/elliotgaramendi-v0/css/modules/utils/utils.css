@@ -1,0 +1,41 @@
+.gap-xs {
+  gap: 1rem;
+}
+
+.gap-sm {
+  gap: 1.5rem;
+}
+
+.gap-md {
+  gap: 2rem;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-background-color);
+}
+
+.color-primary {
+  color: var(--primary-main-color);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-direction-column {
+  flex-direction: column;
+}
+
+.d-none {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .md\:d-block {
+    display: block;
+  }
+
+  .md\:d-none {
+    display: none;
+  }
+}

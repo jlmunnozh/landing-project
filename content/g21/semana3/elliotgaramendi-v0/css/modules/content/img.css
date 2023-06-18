@@ -1,0 +1,24 @@
+.img {
+  display: block;
+}
+
+.img--logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.img--hero {
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  box-shadow: -0.25rem -0.25rem 1rem 0.25rem var(--primary-main-color), 0.25rem 5px 1rem 0.25rem #388f7f;
+  box-shadow: -0.25rem -0.25rem 1rem 0.25rem rgba(0, 90, 255, 0.8), 0.25rem 5px 1rem 0.25rem rgba(0, 213, 83, 0.8);
+}
+
+@media (min-width: 768px) {
+  .img--hero {
+    width: 320px;
+    height: 320px;
+  }
+}

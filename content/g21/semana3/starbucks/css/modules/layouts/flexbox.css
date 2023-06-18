@@ -1,0 +1,8 @@
+.flexbox {
+  display: flex;
+}
+
+.flexbox--header {
+  align-items: center;
+  justify-content: space-between;
+}

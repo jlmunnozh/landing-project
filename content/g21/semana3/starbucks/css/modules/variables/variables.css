@@ -1,0 +1,19 @@
+:root {
+  --primary-max-width: 512px;
+  --primary-spacing: 1.5rem;
+  --primary-border-radius: 1rem;
+  --primary-main-color: #006341;
+  --primary-background-color: white;
+  --primary-text-color: black;
+  --secondary-text-color: #777;
+  --white-color: white;
+  --primary-shadow-color: rgba(0, 0, 0, 0.5);
+  --primary-font-family: monospace;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --primary-max-width: 1024px;
+    --primary-spacing: 2rem;
+  }
+}

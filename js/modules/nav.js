@@ -12,7 +12,6 @@ const nav = () => {
         navMenu.classList.toggle("nav__menu-visible");
     });
 
-
 };
 
 export default nav;

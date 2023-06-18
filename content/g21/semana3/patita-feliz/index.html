@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patita Feliz</title>
+</head>
+
+<body>
+  <h1>Patita Feliz</h1>
+
+  <script>
+    alert('Patita Feliz');
+
+    let response;
+    let name;
+    let age;
+    let color;
+    let species;
+    let animals = '';
+
+    do {
+      alert('Registre a su ser amado');
+      name = prompt('Nombre');
+      age = prompt('Edad');
+      color = prompt('Color');
+      species = prompt('Especie');
+      animals += `
+        Nombre: ${name},
+        Edad: ${age},
+        Color: ${color},
+        Especie: ${species},
+      `;
+      response = prompt('¿Desea registrar más mascotas? Sí (1) No (Otra tecla)');
+    } while (response == '1');
+
+    alert(animals);
+  </script>
+</body>
+
+</html>
